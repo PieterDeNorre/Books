@@ -1,0 +1,138 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-smoothing: antialiased !important;
+    -webkit-font-smoothing: antialiased ;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-font-smoothing: antialiased !important;
+    -0-font-smoothing: antialiased !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    -moz-osx-font-smoothing: grayscale;
+}
+a, a:hover, a:visited {
+    color: #FFF;
+      text-decoration: none;
+}
+body {
+    background-attachment: fixed;
+    background-image: url('../img/bg/dame3.jpg');
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+#logo {
+    background-image: url('../img/iconbooks.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float:left;
+    height: 60px;
+    margin-top: -2px;
+    position: relative;
+    width: 70px;
+}
+#header {
+    background-color: rgba(0, 0, 0, 0.80);
+    color: #fff;
+    font-family: six-caps;
+    font-size: 50px;
+    height: 80px;
+    min-width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+}
+#art {
+    color: #01d3d3;
+}
+#welkom {
+    color: #01d3d3;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    line-height: 37px;
+    margin-top: 100px;
+    width: 100%;
+}
+#welkom p {
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 6px 6px 6px 6px;
+}
+#welkom h1 {
+    font-family: six-caps;
+    font-size: 40px;
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2px 6px 2px 6px;
+    color:#FFF;
+    margin-bottom: 10px;
+}
+#container {
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 180px;
+    position: absolute;
+    text-align:left;
+    width: 50%;
+}
+#container ul li{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #000;
+    display: block;
+    float: left;
+    font-family: six-caps;
+    font-size: 40px;
+    height: 60px;
+    margin-right: 5px;
+    margin-top: 5px;
+    text-align: center;
+    width: 150px;
+}
+#container ul li a{
+    color: rgba(0, 0, 0, 0.50);
+    display: block;
+    float: left;
+    font-family: six-caps;
+    font-size: 40px;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+}
+#container ul li a:hover {
+    background-color: rgba(1, 211, 211, 0.5);
+}
+#footer {
+    background-color: rgba(0, 0, 0, 0.80);
+    bottom: 0;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    min-height: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+    position:fixed;
+    text-transform: uppercase;
+    width: 90%;
+}
+#txt {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
